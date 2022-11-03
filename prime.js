@@ -5,12 +5,10 @@ function checkPrime(number) {
         factors++;
     }
         }
-
-        if (factors == 2) {
+        if (factors === 2) {
             return true;
         }
-        return false;
-       
+        return false;   
     }
         let answer = checkPrime(13);
         if (answer==true) {
